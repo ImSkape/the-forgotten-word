@@ -1,32 +1,62 @@
-body {
+.container {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: url("images/icyWasteland.png");
+    background-attachment: fixed;
+    margin-top: 0px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     font-family: Arial;
-  }
-  .header {
+    color: white;
     text-align: center;
   }
-  .Forgotten {
+
+  .main-area {
+    background-color: rgba(32, 32, 32, 0.8);
+    margin: 100px;
+    padding-bottom: 400px;
+    padding-top: 50px;
+    border-radius: 5px;
+  }
+  h1 {
+    font-family: "Satisfy", cursive;
+    font-size: 110px;
+    margin: 0px;
+  }
+  button {
+    color: white;
+    background-color: rgba(32, 32, 32, 0.5);
+    width: 200px;
+    height: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    vertical-align: middle;
+  }
+  .button-format-parent {
+    text-align: center;
+  }
+  .button-format-child {
+    display: inline-block;
+    width: 200px;
+    vertical-align: middle;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .header {
+    margin-top: 100px;
+  }
+  .description {
+    width: 1000px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 80px;
+  }
+  .wasteland {
     height: 500px;
-    border-radius: 10px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-  }
-  .description {
-    text-align: center;
-    width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .dark-mode {
-    float: right;
-  }
-  .cities {
-    background-color: rgba(223, 223, 223, 0.9);
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-left: 200px;
-    margin-right: 200px;
-    border-radius: 10px;
+    border-radius: 5px;
   }
