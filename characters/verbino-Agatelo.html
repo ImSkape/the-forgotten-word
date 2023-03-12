@@ -4,16 +4,79 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Petruzzo De'Mira</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sono&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../all.css" />
+    <link rel="stylesheet" href="../index.css" />
+    <style>
+      .button-format-child {
+        float: left;
+      }
+      .click-me {
+        color: white;
+        margin-top: 500px;
+      }
+      .character-image {
+        height: 250px;
+        border: solid;
+        border-radius: 3px;
+        border-width: 2px;
+        border-color: rgba(28, 28, 28, 0.9);
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .description-child {
+        margin-bottom: 50px;
+        text-align: left;
+      }
+    </style>
   </head>
   <body>
-    <a href="../index.html">Home Page</a>
-    <a href="../cities.html">Cities</a>
-    <h1>Verbino Agatelo</h1>
-    <p>
-      Mentor of Bosna. So far not much else but he appears to be friends with
-      Petruzzo.
-    </p>
-    <p>Like Petruzzo and Kriv, Verbino is also a seeker.</p>
+    <div class="container">
+      <h1>Characters</h1>
+      <div class="main-area">
+        <div class="button-format-parent">
+          <div class="button-format-child">
+            <form class="button" action="../characters.html">
+              <button type="submit"><h3>Back to Characters</h3></button>
+            </form>
+          </div>
+        </div>
+        <h2 class="header">Verbino Agatelo</h2>
+
+        <img
+          class="character-image"
+          src="../characterImages/defaultProfilePic.png"
+          alt="characterImages"
+        />
+
+        <ul class="description">
+          <li>
+            <p class="description-child">
+              Mentor of Bosna. So far not much else but he appears to be friends
+              with Petruzzo.
+            </p>
+          </li>
+          <li>
+            <p class="description-child">
+              He used to be a member of the Seekers where he met Petruzzo.  and
+              they seem to be friends.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
   </body>
 </html>
