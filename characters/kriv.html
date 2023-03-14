@@ -4,21 +4,81 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Kriv</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sono&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../all.css" />
+    <link rel="stylesheet" href="../index.css" />
+    <style>
+      .button-format-child {
+        float: left;
+      }
+      .click-me {
+        color: white;
+        margin-top: 500px;
+      }
+      .character-image {
+        height: 250px;
+        border: solid;
+        border-radius: 3px;
+        border-width: 2px;
+        border-color: rgba(28, 28, 28, 0.9);
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .description-child {
+        margin-bottom: 50px;
+        text-align: left;
+      }
+    </style>
   </head>
   <body>
-    <a href="../index.html">Home Page</a>
-    <a href="../cities.html">Cities</a>
-    <h1>Kriv</h1>
-    <p>
-      A Minotaur blacksmith and a Seeker. He has been helping in the war efforts
-      against the void by making weapons and bombs for the resistance as well as
-      being a beast in battle.
-    </p>
-    <p>
-      It was spilled to him information of Petruzzo's death and reanimation so
-      after some damage control, he showed that there would be a strong
-      likelyhood that he would go to him.
-    </p>
+    <div class="container">
+      <h1>Characters</h1>
+      <div class="main-area">
+        <div class="button-format-parent">
+          <div class="button-format-child">
+            <form class="button" action="../characters.html">
+              <button type="submit"><h3>Back to Characters</h3></button>
+            </form>
+          </div>
+        </div>
+        <h2 class="header">Kriv</h2>
+
+        <img
+          class="character-image"
+          src="../characterImages/defaultProfilePic.png"
+          alt="characterImages"
+        />
+
+        <ul class="description">
+          <li>
+            <p class="description-child">
+              A Minotaur blacksmith and a Seeker. He has been helping in the war
+              efforts against the void by making weapons and bombs for the
+              resistance as well as being a beast in battle.
+            </p>
+          </li>
+          <li>
+            <p class="description-child">
+              It was spilled to him information of Petruzzo's death and
+              reanimation so after some damage control, he showed that there
+              would be a strong likelyhood that he would go to him.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
   </body>
 </html>
